@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gem install rsruby -- --with-R-dir=$R_HOME --with-R-include=$R_HOME/include --with-R-lib=$R_HOME/lib
+
+exit 0

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cat release.yaml
+exit 0
