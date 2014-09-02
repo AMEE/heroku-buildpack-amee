@@ -4,6 +4,7 @@
 
 R_HOME=/app/vendor/R/lib64/R
 
-bundle config build.rsruby --with-R-dir=$R_HOME --with-R-include=$R_HOME/include --with-R-lib=$R_HOME/lib
+cp $(which $)
+cp -r $(dirname "$0")/.bundle $1/
 
 exit 0
