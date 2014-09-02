@@ -1,0 +1,3 @@
+---
+BUNDLE_BUILD__RSRUBY: --with-R-dir=/Library/Frameworks/R.framework/Resources --with-R-include=/Library/Frameworks/R.framework/Resources/include
+  --with-R-lib=/Library/Frameworks/R.framework/Resources/lib

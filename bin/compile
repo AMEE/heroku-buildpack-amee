@@ -4,7 +4,6 @@
 
 R_HOME=/app/vendor/R/lib64/R
 
-cp $(which $)
 cp -r $(dirname "$0")/.bundle $1/
 
 exit 0
