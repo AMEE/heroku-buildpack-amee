@@ -4,6 +4,8 @@
 
 R_HOME=/app/vendor/R/lib64/R
 
-cp -r $(dirname "$0")/.bundle $1/
+gem install bundler
+bundle config build.rsruby -- --with-R-Dir=/app/vendor/R/lib64/R --with-R-include=/app/vendor/R/lib64/R/include --with-Rlib=/app/vendor/R/lib64/R/lib
+#cp -r $(dirname "$0")/.bundle $1/
 
 exit 0
