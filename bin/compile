@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Environment vars are not defined yet...
+
+R_HOME=/app/vendor/R/lib64/R
+
 gem install rsruby -- --with-R-dir=$R_HOME --with-R-include=$R_HOME/include --with-R-lib=$R_HOME/lib
 
 exit 0
