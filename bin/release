@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cat release.yaml
+cat $(dirname "$0")/release.yaml
 exit 0

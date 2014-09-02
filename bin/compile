@@ -4,6 +4,6 @@
 
 R_HOME=/app/vendor/R/lib64/R
 
-gem install rsruby -- --with-R-dir=$R_HOME --with-R-include=$R_HOME/include --with-R-lib=$R_HOME/lib
+bundle config build.rsruby --with-R-dir=$R_HOME --with-R-include=$R_HOME/include --with-R-lib=$R_HOME/lib
 
 exit 0
