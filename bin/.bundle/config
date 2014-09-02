@@ -1,3 +1,2 @@
 ---
-BUNDLE_BUILD__RSRUBY: --with-R-dir=/Library/Frameworks/R.framework/Resources --with-R-include=/Library/Frameworks/R.framework/Resources/include
-  --with-R-lib=/Library/Frameworks/R.framework/Resources/lib
+BUNDLE_BUILD__RSRUBY: --with-R-dir=/app/vendor/R/lib64/R --with-R-include=/app/vendor/R/lib64/R/include --with-R-lib=/app/vendor/R/lib64/R/lib
